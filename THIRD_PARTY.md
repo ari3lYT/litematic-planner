@@ -1,3 +1,5 @@
+**English** · [Русский](THIRD_PARTY.ru.md)
+
 # Third-party material
 
 - The block/property registry is generated locally from pinned [PrismarineJS/minecraft-data](https://github.com/PrismarineJS/minecraft-data) using `scripts/prepare_registry.py`. The dataset is a setup input and is not included in this source distribution. See `data/editor-data-source.json` for attribution.

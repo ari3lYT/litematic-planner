@@ -1,3 +1,5 @@
+**English** · [Русский](README-models.ru.md)
+
 # Vanilla block rendering
 
 `block-models.js` resolves the Java blockstate variants and multipart rules, model parents, texture aliases, face UVs, rotations, UV lock and tint. `schematic3d.js` instances the resulting geometry for each state in a schematic. Unsupported models are reported in the viewer instead of being replaced by cubes.

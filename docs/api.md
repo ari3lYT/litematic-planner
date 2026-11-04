@@ -1,3 +1,5 @@
+**English** · [Русский](api.ru.md)
+
 # HTTP API
 
 Inspect routes in `App.do_GET` and `App.do_POST` in `app.py` for the precise request fields.

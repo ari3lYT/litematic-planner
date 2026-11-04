@@ -1,3 +1,5 @@
+**English** · [Русский](development.ru.md)
+
 # Development
 
 Install `requirements-dev.txt`, run `python scripts/prepare_registry.py`, then run `python -m unittest discover -s tests -v`.
