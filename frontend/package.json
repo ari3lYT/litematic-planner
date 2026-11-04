@@ -1,0 +1,14 @@
+{
+  "name": "litematic-planner-frontend",
+  "version": "5.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.2",
+    "three": "0.186.1",
+    "lucide-static": "0.468.0"
+  }
+}

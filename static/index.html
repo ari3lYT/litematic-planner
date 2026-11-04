@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="ru" data-theme="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex,nofollow" />
+    <meta name="referrer" content="no-referrer" />
+    <meta name="theme-color" content="#101113" />
+    <title>Склад · совместный сбор ресурсов</title>
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='10' fill='%23191a1e'/%3E%3Cpath d='m9 14 11-6 11 6v13l-11 6-11-6z' fill='%2376a7ff'/%3E%3Cpath d='m9 14 11 6 11-6M20 20v13' fill='none' stroke='%23191a1e' stroke-width='2'/%3E%3C/svg%3E"
+    />
+    <link rel="stylesheet" href="./assets/app.css?v=8" />
+    <link rel="stylesheet" href="./assets/chests.css?v=8" />
+    <script src="./assets/ui.js?v=8" defer></script>
+    <script src="./assets/chest-ui.js?v=8" defer></script>
+    <link rel="stylesheet" href="./assets/editor.css?v=8" />
+    <script src="./assets/editor.js?v=8" defer></script>
+    <script src="./assets/app.js?v=8" defer></script>
+  </head>
+  <body>
+    <a class="skip" href="#main">Перейти к содержимому</a>
+    <header class="top">
+      <div class="shell top-inner">
+        <a class="brand" data-home-mode="collection" href="./" aria-label="Склад — главная"
+          ><span class="brand-icon"
+            ><svg
+              class="ui-icon"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.7"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              aria-hidden="true"
+            >
+              <use href="./assets/ui-icons.svg?v=8#box"></use></svg></span
+          >склад<span class="brand-label">Litematica, вместе.</span></a
+        >
+        <div class="top-right">
+          <span class="privacy"
+            ><svg
+              class="ui-icon"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.7"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              aria-hidden="true"
+            >
+              <use href="./assets/ui-icons.svg?v=8#lock"></use></svg
+            >По секретной ссылке</span
+          ><button
+            class="btn small icon-button"
+            data-do="toggle-theme"
+            aria-label="Переключить светлую и тёмную тему"
+            title="Переключить тему"
+          >
+            <svg
+              class="ui-icon"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.7"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              aria-hidden="true"
+            >
+              <use href="./assets/ui-icons.svg?v=8#sun"></use>
+            </svg></button
+          ><button
+            class="btn small icon-button"
+            data-do="preferences"
+            aria-label="Ваши настройки"
+            title="Ваши настройки"
+          >
+            <svg
+              class="ui-icon"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.7"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              aria-hidden="true"
+            >
+              <use href="./assets/ui-icons.svg?v=8#settings-2"></use>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </header>
+    <main id="main" class="shell" tabindex="-1">
+      <div class="empty">Загрузка…</div>
+    </main>
+    <footer class="shell footer">
+      <span>Собирайте вместе. Стройте своё.</span
+      ><span
+        >Без аккаунтов ·
+        <a href="https://lucide.dev/" target="_blank" rel="noopener noreferrer"
+          >Lucide icons</a
+        ></span
+      >
+    </footer>
+    <dialog id="dialog" aria-labelledby="dialog-title">
+      <div id="dialog-content"></div>
+    </dialog>
+    <div class="toast" role="status" aria-live="polite" id="toast"></div>
+    <noscript
+      ><p class="shell">
+        Для работы со сбором включите JavaScript в браузере.
+      </p></noscript
+    >
+  </body>
+</html>

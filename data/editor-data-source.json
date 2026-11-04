@@ -1,0 +1,5 @@
+{
+  "project": "PrismarineJS/minecraft-data",
+  "blocks": "https://github.com/PrismarineJS/minecraft-data/blob/master/data/pc/26.1/blocks.json",
+  "versions": "https://github.com/PrismarineJS/minecraft-data/blob/master/data/pc/common/protocolVersions.json"
+}
